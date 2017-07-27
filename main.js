@@ -1,8 +1,8 @@
 // alert('working!!');
 (function(){
   'use strict';
-  var timerId = 0;
-  var startTime = new Date();
+  var timerId;
+  var startTime;
   var startButton = document.querySelector('#start-button');  // document.getElementById('start-button');
   var hours = document.querySelector('.hours');
   var minutes = document.querySelector('.minutes');
